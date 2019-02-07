@@ -1,0 +1,12 @@
+<title>Polloyon</title>
+<section class="container">
+    {{#each products as | product |}}
+    <a href="/products/{{product._id}}">
+       <div class="card">
+           <img width="100" src="{{product.gallery.[0]}}" alt="foto">
+           <h3>{{product.name}}</h3>
+           <p>${{product.price}}.00MXN</p>
+       </div>
+    </a>
+    {{/each}}
+</section>

@@ -1,0 +1,30 @@
+{
+  "name": "params",
+  "version": "0.0.1",
+  "description": "puro pinshi params",
+  "main": "app.js",
+  "scripts": {
+    "dev": "nodemon app.js",
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "aun no hay"
+  },
+  "keywords": [
+    "bliss",
+    "interblisstelar",
+    "necesito",
+    "dormir",
+    "no",
+    "mms"
+  ],
+  "author": "bliss",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "hbs": "^4.0.1",
+    "mongoose": "^5.4.10"
+  }
+}
